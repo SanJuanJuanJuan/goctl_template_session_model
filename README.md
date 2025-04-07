@@ -18,9 +18,9 @@ git clone https://github.com/SanJuanJuanJuan/goctl_template_session_model.git
 ```
 
 ### 2. 使用自定义模板生成代码
-
+使用goctl操作生成代码时追加--home参数
 ```bash
-goctl api -o yourproject.api -dir ./gen -template=路径到模板目录
+-- home=路径到模板目录
 ```
 
 ## 目录结构
